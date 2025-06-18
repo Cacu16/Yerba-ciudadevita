@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosotros</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="enlace"><a href="../pages/galeria">Galería</a></li>
+        <li class="enlace"><a href="../pages/tienda">Tienda</a></li>
+        <li class="enlace"><a href="../pages/contacto">Contacto</a></li>
+        <li class="enlace"><a href="nosotros.html">Nosotros</a></li>
+        <li class="inicio"><a href="../index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nosotros:</h1>
+    <section class="galeria">
+      <p>Somos vecinos de Ciudad Evita, un barrio que no solo nos vio crecer, sino que también nos enseñó el valor de la comunidad, las raíces y el amor por lo que nos une. De ese cariño profundo por nuestro lugar y nuestra tradición nació esta idea: crear una yerba que sea un reflejo de nuestra identidad y nuestra historia.
+
+Yerba Ciudad Evita es más que un producto; es nuestra manera de compartir con el mundo el amor por el mate y el orgullo de pertenecer a este rincón tan especial. Queremos que cada mate sea una invitación a sentir el espíritu del barrio, a recordar esos momentos simples pero valiosos que nos conectan con quienes somos.
+
+Desde el corazón de Ciudad Evita, para acompañarte en cada ronda de mates y abrazarte con los sabores de casa. ❤️</p>
+      <img src="../assets/images/imagen3.jpg" alt="Descripción de la imagen 3" />
+    </section>
+  </main>
+
+  <footer>
+    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
+  </footer>
+</body>
+</html>

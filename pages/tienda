@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="enlace"><a href="../pages/galeria">Galería</a></li>
+        <li class="enlace"><a href="tienda.html">Tienda</a></li>
+        <li class="enlace"><a href="../pages/contacto">Contacto</a></li>
+        <li class="enlace"><a href="../pages/nosotros">Nosotros</a></li>
+        <li class="inicio"><a href="../index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Tienda</h1>
+    <section class="galeria">
+      <img src="../assets/images/imagen1.jpg" alt="Descripción de la imagen 1" />
+      <img src="../assets/images/imagen2.jpg" alt="Descripción de la imagen 2" />
+      <img src="../assets/images/imagen3.jpg" alt="Descripción de la imagen 3" />
+    </section>
+  </main>
+
+  <footer>
+    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
+  </footer>
+</body>
+</html>

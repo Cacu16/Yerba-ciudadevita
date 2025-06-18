@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="enlace"><a href="galeria.html">Galería</a></li>
+        <li class="enlace"><a href="../pages/tienda">Tienda</a></li>
+        <li class="enlace"><a href="../pages/contacto">Contacto</a></li>
+        <li class="enlace"><a href="../pages/nosotros">Nosotros</a></li>
+        <li class="inicio"><a href="../index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Galería</h1>
+    <br>
+    <section class="galeria">
+      <img width="460" height="315" src="../assets/matecito.avif" alt="Mate tradicional" />
+      <img width="460" height="315" src="../assets/yerba-manos.webp" alt="manos yerba" />
+      <img src="../assets/images/imagen3.jpg" alt="Descripción de la imagen 3" />
+    </section>
+  </main>
+
+  <footer>
+    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
+  </footer>
+</body>
+</html>

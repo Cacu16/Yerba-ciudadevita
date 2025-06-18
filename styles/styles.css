@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Reseteo básico para eliminar márgenes y rellenos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #2e7d32; /* Texto en verde oscuro */
+  line-height: 1.6;
+}
+
+/* Encabezado principal */
+h1 {
+  font-family: 'Ancizar Sans', sans-serif;
+  background-color: #388e3c; /* Verde medio */
+  color: #ffffff; /* Texto blanco */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navegación principal */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #66bb6a; /* Verde claro */
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #81c784; /* Verde más claro al pasar el mouse */
+  border-radius: 5px;
+}
+
+/* Estilo para enlaces destacados */
+.weight {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  text-decoration: none;
+}
+
+/* Secciones del contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Artículos dentro de las secciones */
+section article {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e8f5e9; /* Verde muy claro */
+  border-left: 5px solid #66bb6a;
+}
