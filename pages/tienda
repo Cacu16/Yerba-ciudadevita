@@ -2,34 +2,102 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tienda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ciudad Evita - Tienda</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
   <link rel="stylesheet" href="../styles/styles.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li class="enlace"><a href="../pages/galeria">Galería</a></li>
-        <li class="enlace"><a href="tienda.html">Tienda</a></li>
-        <li class="enlace"><a href="../pages/contacto">Contacto</a></li>
-        <li class="enlace"><a href="../pages/nosotros">Nosotros</a></li>
-        <li class="inicio"><a href="../index.html">Inicio</a></li>
-      </ul>
-    </nav>
+  <header class="bg-success text-white p-3">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between">
+      <a href="../index.html" class="d-flex align-items-center text-white text-decoration-none">
+        <img src="../assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo de Ciudad Evita" width="50" height="50" class="rounded-circle" />
+        <h1 class="ms-3 fs-3 mb-0">Ciudad Evita</h1>
+      </a>
+      <nav class="nav">
+        <a href="galeria.html" class="nav-link px-2 text-white">Galería</a>
+        <a href="tienda.html" class="nav-link px-2 text-white active" aria-current="page">Tienda</a>
+        <a href="contacto.html" class="nav-link px-2 text-white">Contacto</a>
+        <a href="nosotros.html" class="nav-link px-2 text-white">Nosotros</a>
+        <a href="../index.html" class="nav-link px-2 text-white">Inicio</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Tienda</h1>
-    <section class="galeria">
-      <img src="../assets/images/imagen1.jpg" alt="Descripción de la imagen 1" />
-      <img src="../assets/images/imagen2.jpg" alt="Descripción de la imagen 2" />
-      <img src="../assets/images/imagen3.jpg" alt="Descripción de la imagen 3" />
+  <main class="container bg-light p-4 rounded my-4">
+    <ul class="mb-3">
+      <li><a href="../index.html" class="weight">Inicio</a></li>
+    </ul>
+
+    <section class="row g-3">
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 1" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 1</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 2" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 2</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 3" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 3</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 4" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 4</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 5" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 5</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="../assets/images/placeholder.png" class="card-img-top img-fluid mt-3" alt="Producto 6" />
+          <div class="card-body">
+            <h3 class="card-title fs-5">Producto 6</h3>
+            <p class="card-text">Descripción breve o características del producto.</p>
+          </div>
+        </div>
+      </article>
     </section>
   </main>
 
-  <footer>
-    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
+  <footer class="bg-success text-white text-center p-3">
+    <p>Síguenos en <a href="https://facebook.com/tuPerfil" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-underline">Facebook</a></p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -2,37 +2,52 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nosotros</title>
-  <link rel="stylesheet" href="../styles/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nosotros - Ciudad Evita</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles/style.css" />
 </head>
 <body>
-  <header>
+  <header class="d-flex flex-wrap align-items-center justify-content-between p-3 bg-success text-white">
+    <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      <img src="../assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo de Ciudad Evita" width="50" height="50" class="rounded-circle" />
+      <h1 class="ms-2 mb-0" style="font-family: 'Ancizar Sans', sans-serif;">Ciudad Evita</h1>
+    </a>
     <nav>
-      <ul>
-        <li class="enlace"><a href="../pages/galeria">Galería</a></li>
-        <li class="enlace"><a href="../pages/tienda">Tienda</a></li>
-        <li class="enlace"><a href="../pages/contacto">Contacto</a></li>
-        <li class="enlace"><a href="nosotros.html">Nosotros</a></li>
-        <li class="inicio"><a href="../index.html">Inicio</a></li>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="galeria.html" class="nav-link text-white">Galería</a></li>
+        <li class="nav-item"><a href="tienda.html" class="nav-link text-white">Tienda</a></li>
+        <li class="nav-item"><a href="contacto.html" class="nav-link text-white">Contacto</a></li>
+        <li class="nav-item"><a href="nosotros.html" class="nav-link active text-white" aria-current="page">Nosotros</a></li>
+        <li class="nav-item"><a href="../index.html" class="nav-link text-white">Inicio</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <h1>Nosotros:</h1>
-    <section class="galeria">
-      <p>Somos vecinos de Ciudad Evita, un barrio que no solo nos vio crecer, sino que también nos enseñó el valor de la comunidad, las raíces y el amor por lo que nos une. De ese cariño profundo por nuestro lugar y nuestra tradición nació esta idea: crear una yerba que sea un reflejo de nuestra identidad y nuestra historia.
+  <main class="container my-4">
+    <h1 class="mb-4">Nosotros</h1>
 
-Yerba Ciudad Evita es más que un producto; es nuestra manera de compartir con el mundo el amor por el mate y el orgullo de pertenecer a este rincón tan especial. Queremos que cada mate sea una invitación a sentir el espíritu del barrio, a recordar esos momentos simples pero valiosos que nos conectan con quienes somos.
+    <section class="bg-light rounded p-4">
+      <p>
+        Somos vecinos de Ciudad Evita, un barrio que no solo nos vio crecer, sino que también nos enseñó el valor de la comunidad, las raíces y el amor por lo que nos une. De ese cariño profundo por nuestro lugar y nuestra tradición nació esta idea: crear una yerba que sea un reflejo de nuestra identidad y nuestra historia.
+      </p>
+      <p>
+        Yerba Ciudad Evita es más que un producto; es nuestra manera de compartir con el mundo el amor por el mate y el orgullo de pertenecer a este rincón tan especial. Queremos que cada mate sea una invitación a sentir el espíritu del barrio, a recordar esos momentos simples pero valiosos que nos conectan con quienes somos.
+      </p>
+      <p>
+        Desde el corazón de Ciudad Evita, para acompañarte en cada ronda de mates y abrazarte con los sabores de casa. ❤️
+      </p>
 
-Desde el corazón de Ciudad Evita, para acompañarte en cada ronda de mates y abrazarte con los sabores de casa. ❤️</p>
-      <img src="../assets/images/imagen3.jpg" alt="Descripción de la imagen 3" />
+      <img src="../assets/images/imagen3.jpg" alt="Bolsas de yerba Ciudad Evita apiladas" class="img-fluid rounded mt-3" />
     </section>
   </main>
 
-  <footer>
-    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
+  <footer class="bg-success text-white text-center p-3">
+    <p>Síguenos en <a href="https://facebook.com/tuPerfil" target="_blank" class="text-light text-decoration-none">Facebook</a></p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

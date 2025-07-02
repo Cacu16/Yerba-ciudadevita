@@ -1,76 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciudad Evita Ind</title>
-    <link rel="shortcut icon" href="./assets/images/jfif" type="image/x-icon">
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ciudad Evita Ind</title>
+  <link rel="shortcut icon" href="./assets/images/jfif" type="image/x-icon" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- cpers-->
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
+  <header class="d-flex flex-wrap align-items-center justify-content-between p-3 bg-success text-white">
+    <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      <img src="./assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo de Yerba Ciudad Evita" id="inicio" class="rounded-circle" width="50" height="50" />
+      <h1 class="ms-2 mb-0" style="font-family: 'Ancizar Sans', sans-serif;">Ciudad Evita</h1>
+    </a>
+    <nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="./pages/galeria.html" class="nav-link text-white">Galería</a></li>
+        <li class="nav-item"><a href="./pages/tienda.html" class="nav-link text-white">Tienda</a></li>
+        <li class="nav-item"><a href="./pages/contacto.html" class="nav-link text-white">Contacto</a></li>
+        <li class="nav-item"><a href="./pages/nosotros.html" class="nav-link text-white">Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- <header>: Representa el encabezado de la página o sección -->
-    <header class="header">
-        <!-- Logo y enlace al inicio -->
-        <a href="./index.html">
-            <img src="./assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo de Yerba Ciudad Evita" id="inicio">
-        </a>
-        <!-- Título principal del sitio -->
-        <h1>Ciudad Evita</h1>
-        <!-- Navegación principal -->
-        <nav>
-            <ul>
-                <li><a href="pages/galeria">Galería</a></li>
-                <li><a href="pages/tienda">Tienda</a></li>
-                <li><a href="pages/contacto">Contacto</a></li>
-                <li><a href="pages/nosotros">Nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main class="container my-4">
+    <ul class="nav mb-3">
+      <li class="nav-item">
+        <a href="#inicio" class="nav-link fw-bold text-success">Inicio</a>
+      </li>
+    </ul>
 
-    <!-- <main>: Contiene el contenido principal de la página -->
-    <main>
-        <!-- Menú de navegación adicional -->
-        <ul>
-            <li><a href="#inicio" class="weight">Inicio</a></li>
-        </ul>
+    <section class="mb-4 p-3 bg-light rounded">
+      <article class="mb-3">
+        <img src="assets/FOTO-CAMPO-YERBA-1024x644.jpg" alt="Campo de Yerba" class="img-fluid rounded" />
+      </article>
+      <p>
+        Yerba Ciudad Evita: Amor de Barrio en Cada Mate.<br />
+        En cada sorbo de Yerba Ciudad Evita, llevamos la esencia de un barrio que late con amor y unidad.
+        Inspirada en las raíces y los lazos que nos unen, esta yerba representa más que una tradición: es el punto
+        de encuentro, la charla interminable y la calidez de compartir.<br />
+        Desde el corazón de Ciudad Evita, nuestro mate celebra el espíritu comunitario, uniendo generaciones y
+        recordándonos que, alrededor del mate, siempre hay lugar para todos.<br />
+        Yerba Ciudad Evita, hecha con dedicación para acompañar tus momentos más simples y significativos.
+      </p>
+      <article>
+        <img src="assets/mate (1).jpg" alt="Mate tradicional" class="img-fluid rounded" />
+      </article>
+    </section>
 
-        <!-- Sección temática con imágenes y texto -->
-        <section>
-            <article>
-                <img src="assets/FOTO-CAMPO-YERBA-1024x644.jpg" alt="Campo de Yerba">
-            </article>
-            <p>
-                Yerba Ciudad Evita: Amor de Barrio en Cada Mate.
-                En cada sorbo de Yerba Ciudad Evita, llevamos la esencia de un barrio que late con amor y unidad.
-                Inspirada en las raíces y los lazos que nos unen, esta yerba representa más que una tradición: es el punto
-                de encuentro, la charla interminable y la calidez de compartir.
-                Desde el corazón de Ciudad Evita, nuestro mate celebra el espíritu comunitario, uniendo generaciones y
-                recordándonos que, alrededor del mate, siempre hay lugar para todos.
-                Yerba Ciudad Evita, hecha con dedicación para acompañar tus momentos más simples y significativos.
-            </p>
-            <article>
-                <img src="assets/mate (1).jpg" alt="Mate">
-            </article>
-        </section>
+    <section class="ratio ratio-16x9 mb-4">
+      <iframe 
+        src="https://www.youtube.com/embed/i2Mhkjgo44w?si=GTRg-rnh7ogIsDHM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
 
-        <!-- Sección de video incrustado -->
-        <section>
-            <iframe 
-                src="https://www.youtube.com/embed/i2Mhkjgo44w?si=GTRg-rnh7ogIsDHM"
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-            </iframe>
-        </section>
-    </main>
+  <footer class="bg-success text-white text-center p-3">
+    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank" class="text-light text-decoration-none">Facebook</a></p>
+  </footer>
 
-    <!-- <footer>: Representa el pie de página -->
-    <footer>
-        <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank">Facebook</a></p>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
