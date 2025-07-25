@@ -3,50 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ciudad Evita Ind</title>
-  <link rel="shortcut icon" href="./assets/images/.png" type="image/x-icon" />
+  <title>Ciudad Evita</title>
 
-  <!-- Bootstrap -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" type="image/x-icon" />
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Estilos personalizados -->
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
 </head>
 <body>
 
-  <!-- Header con menú hamburguesa -->
+  <!-- HEADER -->
   <header class="bg-success text-white">
     <nav class="navbar navbar-expand-lg navbar-dark container">
       <a class="navbar-brand d-flex align-items-center" href="./index.html">
-        <img src="./assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo de Yerba Ciudad Evita" class="rounded-circle" width="50" height="50" />
+        <img src="./assets/vector-blanco-tablero-senales-trafico_1254296-2702.avif" alt="Logo Ciudad Evita" class="rounded-circle" width="50" height="50" />
         <h1 class="ms-2 mb-0 fs-4" style="font-family: 'Ancizar Sans', sans-serif;">Ciudad Evita</h1>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Menú">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="menuPrincipal">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a href="./pages/galeria.html" class="nav-link text-white">Galería</a></li>
-          <li class="nav-item"><a href="./pages/tienda.html" class="nav-link text-white">Tienda</a></li>
-          <li class="nav-item"><a href="./pages/contacto.html" class="nav-link text-white">Contacto</a></li>
-          <li class="nav-item"><a href="./pages/nosotros.html" class="nav-link text-white">Nosotros</a></li>
-        </ul>
+  <li class="nav-item"><a href="/pages/galeria.html" class="nav-link text-white">Galería</a></li>
+  <li class="nav-item"><a href="/pages/tienda.html" class="nav-link text-white">Tienda</a></li>
+  <li class="nav-item"><a href="/pages/contacto.html" class="nav-link text-white">Contacto</a></li>
+  <li class="nav-item"><a href="/pages/nosotros.html" class="nav-link text-white">Nosotros</a></li>
+</ul>
       </div>
     </nav>
   </header>
 
-  <!-- Contenido principal -->
+  <!-- MAIN -->
   <main class="container my-4">
-    <ul class="nav mb-3">
-      <li class="nav-item">
-        <a href="#inicio" class="nav-link fw-bold text-success">Inicio</a>
-      </li>
-    </ul>
-
     <section class="mb-4 p-3 bg-light rounded">
       <article class="mb-3">
-        <img src="assets/FOTO-CAMPO-YERBA-1024x644.jpg" alt="Campo de Yerba" class="img-fluid rounded" />
+        <img src="./assets/FOTO-CAMPO-YERBA-1024x644.jpg" alt="Campo de yerba" class="img-fluid rounded" />
       </article>
       <p>
         Yerba Ciudad Evita: Amor de Barrio en Cada Mate.<br />
@@ -58,28 +53,28 @@
         Yerba Ciudad Evita, hecha con dedicación para acompañar tus momentos más simples y significativos.
       </p>
       <article>
-        <img src="assets/mate (1).jpg" alt="Mate tradicional" class="img-fluid rounded" />
+        <img src="./assets/mate (1).jpg" alt="Mate tradicional" class="img-fluid rounded" />
       </article>
     </section>
 
+    <!-- VIDEO -->
     <section class="ratio ratio-16x9 mb-4">
       <iframe 
         src="https://www.youtube.com/embed/i2Mhkjgo44w?si=GTRg-rnh7ogIsDHM"
-        title="YouTube video player"
+        title="Video institucional de Yerba Ciudad Evita"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
       </iframe>
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="bg-success text-white text-center p-3">
-    <p>Sígueme en <a href="https://facebook.com/tuPerfil" target="_blank" class="text-light text-decoration-none">Facebook</a></p>
+    <p>Síguenos en <a href="https://facebook.com/tuPerfil" target="_blank" class="text-light text-decoration-none">Facebook</a></p>
   </footer>
 
-  <!-- Bootstrap JS -->
+  <!-- Bootstrap JS (hamburguesa) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
