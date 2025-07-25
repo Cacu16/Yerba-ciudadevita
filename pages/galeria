@@ -7,28 +7,6 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../styles/styles.css" />
-
-  <style>
-    /* Estilo adicional para que las imágenes se ajusten mejor */
-    .galeria-img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 0.5rem;
-    }
-
-    @media (max-width: 768px) {
-      .galeria-img {
-        height: 200px;
-      }
-    }
-
-    @media (max-width: 576px) {
-      .galeria-img {
-        height: 180px;
-      }
-    }
-  </style>
 </head>
 <body>
   <header class="bg-success text-white">
@@ -53,23 +31,23 @@
     </nav>
   </header>
 
-  <main class="container my-5">
-    <h1 class="mb-4 text-center">Galería</h1>
+  <main class="container my-4">
+    <h1 class="mb-4">Galería</h1>
 
-    <section class="row g-4">
+    <section class="row g-3">
       <div class="col-12 col-md-6 col-lg-4">
-        <img src="../assets/matecito.avif" alt="Mate tradicional sobre mesa de madera" class="galeria-img" />
+        <img src="../assets/matecito.avif" alt="Mate tradicional sobre mesa de madera" class="img-fluid rounded" />
       </div>
       <div class="col-12 col-md-6 col-lg-4">
-        <img src="../assets/yerba-manos.webp" alt="Manos sosteniendo hojas de yerba mate" class="galeria-img" />
+        <img src="../assets/yerba-manos.webp" alt="Manos sosteniendo hojas de yerba mate" class="img-fluid rounded" />
       </div>
       <div class="col-12 col-md-6 col-lg-4">
-        <img src="../assets/images/imagen3.jpg" alt="Bolsas de yerba Ciudad Evita apiladas" class="galeria-img" />
+        <img src="../assets/images/imagen3.jpg" alt="Bolsas de yerba Ciudad Evita apiladas" class="img-fluid rounded" />
       </div>
     </section>
   </main>
 
-  <footer class="bg-success text-white text-center p-3 mt-5">
+  <footer class="bg-success text-white text-center p-3">
     <p>Síguenos en <a href="https://facebook.com/tuPerfil" target="_blank" class="text-light text-decoration-none">Facebook</a></p>
   </footer>
 
